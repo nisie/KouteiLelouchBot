@@ -111,6 +111,7 @@ namespace DiscordBot
                     await e.Channel.SendFile("sticker/bola_ikan/ikan_roll.png");
                 });
 
+
             commands.CreateCommand("emo logic")
                 .Do(async (e) =>
                 {
