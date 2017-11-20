@@ -40,7 +40,7 @@ namespace DiscordBot
 
             discordClient.ExecuteAndWait(async () =>
             {
-            await discordClient.Connect("MzA0OTcyNDI4ODcyNzc3NzM4.C_CjpQ.XpsyqoRNGdTleBICSD54PYggfAA", TokenType.Bot);
+            await discordClient.Connect("{DISCORD_CLIENT_TOKEN}", TokenType.Bot);
             });
         }
 
